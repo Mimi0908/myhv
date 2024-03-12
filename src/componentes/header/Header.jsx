@@ -1,6 +1,10 @@
 import React from "react";
 import "./header.css";
 import fotoPersonal from "./logo.jpeg"
+import SmartphoneIcon from '@mui/icons-material/Smartphone';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
+
 
 export default function Header(){
     return(
@@ -16,9 +20,9 @@ export default function Header(){
             </div>
             <div className="headerContacto">
                 <ul className="contactList">
-                    <li className="contactListItem"><p>(+57) 3205047610</p></li>
-                    <li className="contactListItem"><p>Santa Rossa de Cabal/Risaralda - Colombia</p></li>
-                    <li className="contactListItem"><p>emilygarciamontes@gmail.com</p></li>
+                    <li className="contactListItem"><p><SmartphoneIcon /></p><p>(+57) 3205047610</p></li>
+                    <li className="contactListItem"><p><LocationOnIcon /></p><p>Santa Rossa de Cabal/Risaralda - Colombia</p></li>
+                    <li className="contactListItem"><p><MailOutlineIcon /></p><p>emilygarciamontes@gmail.com</p></li>
                 </ul>
             </div>
         </div>
